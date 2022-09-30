@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 10px;
+  width: 25%;
+  padding: 25px !important;
+  margin-top: 15px;
+  background-color: #2a2d3c;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 7px 40px;
+  font-size: 14px;
+}
+.first-btn {
+  background-color: #febf32;
+  color: #17171a;
+  font-weight: 900;
+}
+.second-btn {
+  background-color: #242632;
+  color: #abafc4;
+}
+.sub-card {
+  padding: 10px;
+  border: 1px solid #808185;
+  border-radius: 10px;
+}
+.from,
+.to,
+.pm {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.pl {
+  padding-left: 5px;
+}
+.head-text {
+  color: #febf32;
+}
+.bold-text {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 3px;
+}
+.sub-text,
+.date {
+  color: #e4e5e7;
+  font-size: small;
+}
+.date {
+  color: #c2c3c3;
+}
+.tc {
+  color: white;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+.pm {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+p {
+  padding-bottom: 2px;
+}
+.pm p {
+  font-weight: bolder;
+}
+
+span {
+  font-weight: normal;
+}
+.italic {
+  font-style: italic;
+}
+.Transaction-complete {
+  background-color: #3d5a47;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.main-card {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.close {
+  display: flex;
+  gap: 15px;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 1100px) {
+  .card {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card {
+    width: 95%;
+    height: auto;
+    padding: 30px 20px;
+    margin: 5px;
+  }
+}

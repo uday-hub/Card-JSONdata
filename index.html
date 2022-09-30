@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Growpital Task</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="main-card">
+          <div class="pl">
+            <p class="sub-text">Money added to wallet</p>
+            <p class="sub-text">from bank account</p>
+            <div class="d-flex">
+              <img src="./Assets/icons8-rupee-48.png" height="20" alt="icon" />
+              <p class="bold-text" id="price"></p>
+            </div>
+
+            <p class="date" id="date"></p>
+          </div>
+          <div class="close">
+            <div>
+              <img
+                src="./Assets/icons8-card-wallet-64.png"
+                height="40"
+                alt="icon"
+              />
+            </div>
+            <div>
+              <img
+                src="./Assets/icons8-multiply-48.png"
+                height="20"
+                alt="icon"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="sub-card Transaction-complete">
+          <div>
+            <img
+              src="./Assets/icons8-checkmark-50.png"
+              height="20"
+              alt="icon"
+            />
+          </div>
+          <div>
+            <p style="font-weight: bolder" class="sub-text tc">
+              Transaction Complete!
+            </p>
+            <p class="date">Tap to view this transaction</p>
+          </div>
+        </div>
+        <div class="sub-card borderr">
+          <div class="from">
+            <div>
+              <p class="head-text">From</p>
+              <p class="bold-text" id="sender"></p>
+              <p class="sub-text italic">
+                <span id="bank"></span> IFSC <span id="ifsc"></span>
+              </p>
+              <p class="sub-text italic">
+                A/c No. <span id="accountno"></span>
+              </p>
+              <p class="date" id="transactionDate"></p>
+            </div>
+            <div>
+              <img
+                class="service-img"
+                height="40"
+                src="./Assets/sm.png"
+                alt="icon"
+              />
+            </div>
+          </div>
+          <div class="to">
+            <div>
+              <p class="head-text">To</p>
+              <p class="bold-text" id="reciever"></p>
+              <p class="sub-text italic" id="wallet"></p>
+              <p class="sub-text italic">
+                Ref No. <span id="referenceno"></span>
+              </p>
+              <p class="date" id="transactiondate"></p>
+            </div>
+            <div>
+              <img
+                class="service-img"
+                height="40"
+                src="./Assets/icons8-wallet-64.png"
+                alt="icon"
+              />
+            </div>
+          </div>
+          <div class="pm">
+            <p class="sub-text">
+              Payment Method: <span id="paymentmethod"></span>
+            </p>
+            <div>
+              <p class="sub-text">
+                Transaction ID:
+                <span id="transactionId"></span>
+                <img src="./Assets/icons8-copy-50.png" height="20" alt="icon" />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <button class="first-btn">Help</button>
+          <button class="second-btn">Share</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
